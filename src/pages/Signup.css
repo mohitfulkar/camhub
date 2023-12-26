@@ -1,0 +1,108 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+
+body{
+    background-image: url('../images/postcards-456552_1280.jpg');
+    background-size: cover; 
+    backdrop-filter: blur(2px);
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+
+  }
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.header{
+    text-align: center;
+}
+.signup{
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    border:bisque;
+    border-radius: 7px;
+    background-color: aliceblue;
+}
+.signupform{
+    height: 380px;
+
+}
+.input-username,.input-email,.input-pwd{
+    float: right;
+}
+
+.labelinput-username, .labelinput-email, .labelinput-pwd{
+    padding: 10px;
+    font-size: 17px;
+    /* margin-bottom: 5px; */
+    border-radius: 5px;
+    background-color: #f1f4f7;
+}
+.inputs label{
+    position: relative;
+    bottom: 4px;
+}
+input[type=text], input[type=password]{
+    height: 23px;
+    border-radius: 3px;
+    width: 12rem;
+    font-size: 15px;
+    border: 1px solid transparent;
+}
+
+[class^="icon"]{  
+    display: flex;
+    display: inline-block;
+    font-size: 1.2rem;
+    size: 100px;
+    margin: 3px;
+    position: relative;
+    top: -2px;
+    
+}
+.inputs label{
+    margin-left: 3px;
+}
+
+.btn-signup button{
+    width: 90%;
+    position: relative;
+    top: 20px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #b8d8f8;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn-signup{
+    height: 70px;
+    text-align: center;
+}
+
+
+.btn-signup button:hover{
+    background-color: #9ccaf8;
+
+}
+
+.acExist{
+    width: 100%;
+    text-align: center;
+}
+.acExist label{
+    float: left;
+    padding-left:20px;
+}
+.acExist .link-login{
+    float: right;
+    text-decoration: none;
+    padding-right: 30px;
+}
